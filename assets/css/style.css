@@ -1,3 +1,95 @@
-.bg-dark {
-    background-color: chartreuse;
+*,
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #efefef;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url('../images/ignasi_pattern_s.png');
+    color: #9C9797;
+}
+
+.navbar {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: 2px solid #cccccc;
+}
+
+.myname {
+    padding: 15px 20px 15px 20px;
+    background-color: #4aaaa5;
+    color: white;
+}
+
+
+.maincontainer {
+    background-color: #ffffff;
+    margin-top: 15px;
+    margin-bottom: 100px;
+}
+
+.maincontainer img {
+    float: left;
+    margin-right: 15px;
+}
+
+.aboutme {
+    color: #4aaaa5;
+    border-bottom: 2px solid #cccccc;
+    padding: 30px 0 15px 0;
+}
+
+footer { /* footer settings */
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    color: white;
+    clear: both;
+}
+
+.column1text { /* Column 1 text and banner overlay */
+    position: relative;
+    bottom: 80px;
+    left: 16px;
+    color: white;
+    background-color: #4aaaa5;
+    /* margin-right:40px auto; */
+    padding-bottom: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    width: 200px;
+}
+
+.email {
+    padding-left: 15px;
+    width: 98%;
+}
+
+@media screen and (max-width: 574px) {
+    .myname {
+        width: 100%;
+        text-align: center;
+    }
+    .navbar {
+        padding: 0;
+        margin: 0;
+    }
+
+    /* hack to center links - i dont know why this works */
+    .container-links
+    {
+        width: 640px;
+        text-align: center;
+    }
+    
+
 }

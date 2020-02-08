@@ -10,25 +10,50 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-md" style="background-color: aquamarine;">
-        <span class="myname">Justin Wells</span>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Portofolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
+    <nav class="navbar navbar-expand-sm navbar-light">
+      <div class="container">
+        <h3 class="myname">Justin Wells</h3>
+          <div class="container-links">
+            <ul class="navbar-nav ml-right">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portofolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </nav>
+
+    <div class="container maincontainer">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="aboutme">About Me</h1>
         </div>
-      </nav>
+        <div class="col-md-12">
+          <img src="assets/images/me.jpg" alt="pacman" width="150" height="150">
+          <p>
+              My Name is Justin Wells and I grew up in Colleyville, Texas, born in Irving, Texas.  After graduating from Grapevine High School in 2007, I attended college at the University of Texas at Austin.
+              I graduated college in 2011 with a bachelors in Electrical and Computer Engineering. 
+          </p>
+          <p>
+              In 2009, I began my internship at Intel Corp, joining full time in Fall of 2011 when I Graduated.  Since then I have been working at Intel for almost 10 years as a Product Development Engineer.  
+              My work primary includes debug and validation both pre and post silicon to find and fix defects.  My primary role is desinging automation tools in Python.
+          </p>
+          <p>
+              My Hobbies include riding motorcycles, playing videogames, playing with my horses and Boxer dog, a little woodworking and having a cold beer with friends on a nice day.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      Copyright &copy;
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
