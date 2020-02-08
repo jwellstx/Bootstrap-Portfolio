@@ -1,3 +1,5 @@
+/* most content of this styling file is just color, font, margin and padding
+   except for footer and text over portfolio pictures, thanks for bootstrap */
 *,
 h3 {
     padding: 0;
@@ -25,7 +27,6 @@ body {
     color: white;
 }
 
-
 .maincontainer {
     background-color: #ffffff;
     margin-top: 15px;
@@ -43,7 +44,7 @@ body {
     padding: 30px 0 15px 0;
 }
 
-footer { /* footer settings */
+footer { 
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
     position: fixed;
@@ -56,13 +57,12 @@ footer { /* footer settings */
     clear: both;
 }
 
-.column1text { /* Column 1 text and banner overlay */
+.column1text { /* positioning and styling for text/banner overlay on portfolio pictures */
     position: relative;
     bottom: 80px;
     left: 16px;
     color: white;
     background-color: #4aaaa5;
-    /* margin-right:40px auto; */
     padding-bottom: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -74,6 +74,8 @@ footer { /* footer settings */
     width: 98%;
 }
 
+/* need some slight modifications to the header/navbar area to match expected output */
+/* i'm not sure why flex-direction switches from rows to columns at this size */
 @media screen and (max-width: 574px) {
     .myname {
         width: 100%;
@@ -84,7 +86,7 @@ footer { /* footer settings */
         margin: 0;
     }
 
-    /* hack to center links - i dont know why this works */
+    /* center links */
     .container-links
     {
         width: 640px;
