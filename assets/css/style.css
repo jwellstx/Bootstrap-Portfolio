@@ -57,7 +57,7 @@ footer {
     clear: both;
 }
 
-.column1text { /* positioning and styling for text/banner overlay on portfolio pictures */
+.columntext { /* positioning and styling for text/banner overlay on portfolio pictures */
     position: relative;
     bottom: 80px;
     left: 16px;
